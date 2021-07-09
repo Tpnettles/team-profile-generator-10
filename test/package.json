@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-html": "^4.1.0",
+    "inquirer": "^8.1.1"
+  }
+}
