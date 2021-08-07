@@ -7,12 +7,19 @@
     "test": "test"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
+    "bulma": "^0.9.3",
     "exit": "^0.1.2",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.1",
     "minimist": "^1.2.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
